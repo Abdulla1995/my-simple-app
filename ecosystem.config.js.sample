@@ -1,7 +1,7 @@
 module.exports = {
   apps: [
     {
-      name: 'prod.app',
+      name: 'app_running_name',
       exec_mode: 'cluster',
       instances: '2', // Or "max" - for maximum available of instances
       script: './node_modules/nuxt/bin/nuxt.js',
